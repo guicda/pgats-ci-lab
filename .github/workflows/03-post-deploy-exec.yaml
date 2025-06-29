@@ -7,7 +7,7 @@ name: 'execução por Deploy'
 #gatilho de exec a partir de outro pipe = workflow_run
 on:
   workflow_run:
-  workflows:[`01-manual-exec.yaml`]
+  workflows:[`execução manual`]
   types:
    - completed # executa quando o workflow anterior é concluído
 
