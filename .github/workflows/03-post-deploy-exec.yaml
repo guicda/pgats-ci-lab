@@ -9,7 +9,7 @@ on:
   workflow_run:
   workflows:[`execução manual`]
   types:
-   - completed # executa quando o workflow anterior é concluído
+   - completed # executa quando o workflow anterior é concluído pipe 1
 
 # jobs = tarefas que serão executadas
 jobs:
